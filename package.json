@@ -1,0 +1,16 @@
+{
+  "name": "calypso",
+  "version": "1.0.0",
+  "description": "A discord bot with many features.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "erela.js": "^2.3.2"
+  }
+}
