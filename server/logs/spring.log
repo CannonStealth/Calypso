@@ -588,3 +588,5 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2021-03-07 21:00:45.228  INFO 5872 --- [XNIO-1 task-91] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63786
 2021-03-07 21:00:45.235  INFO 5872 --- [XNIO-1 task-91] lavalink.server.io.SocketServer          : Connection successfully established
 2021-03-07 21:00:45.236  WARN 5872 --- [XNIO-1 task-91] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-03-07 21:14:47.772  INFO 5872 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63786 -- CloseStatus[code=1006, reason=]
+2021-03-07 21:14:47.776  INFO 5872 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
