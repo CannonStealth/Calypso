@@ -1,0 +1,7 @@
+{
+    "prefix" : ".",
+    "mongoPath" : "mongodb+srv://calypso:gNJIzhwwCawVIgRt@calypso.m8i69.mongodb.net/calypso-bot?retryWrites=true&w=majority",
+    "botOwners" : [
+        "795336949795258378"
+    ]
+}
