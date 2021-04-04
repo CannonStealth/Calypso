@@ -20,11 +20,10 @@ module.exports = {
         const prefix = args.slice(0).join(' ')
         const guildId = message.guild.id
 
-        await guildConfigs.findOne({ _id: guildId })
         await guildConfigs.findOneAndUpdate({
-            _id: guildId,
+            gId: guildId,
         }, {
-            _id: guildId,
+            gId: guildId,
             prefix
         }, {
             upsert: true
