@@ -134,7 +134,7 @@ class Calypso extends Client {
     for (const result of results) {
       if (!result.prefix) return
 
-    this.prefixes.set(result._id, result.prefix)
+    this.prefixes.set(result.gId, result.prefix)
     }
   }
 
